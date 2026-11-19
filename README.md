@@ -54,4 +54,4 @@ Dados de titulos: (https://www.netshoes.com.br/especiais/volei/competicoes-inter
 
 ## Dificuldades encontradas
 
-> PREENCHER com as dificuldades que você teve e como resolveu (ex.: validação do formulário, tabela com scope, etc.).
+Nas tabelas e em campos de preencher
