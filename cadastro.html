@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Formulário de pré-inscrição para alunos e atletas da escolinha de vôlei.">
+    <title>Cadastro — Mundo do voleibol</title>
+  </head>
+  <body>
+    <a href="#conteudo">Pular para o conteúdo</a>
+
+    <header>
+      <h1>Mundo do voleibol</h1>
+    </header>
+
+    <nav aria-label="Navegação principal">
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="dados.html">Dados</a></li>
+        <li><a href="cadastro.html" aria-current="page">Cadastro</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </nav>
+
+    <main id="conteudo">
+      <section>
+        <h2>Cadastro de alunos e atletas</h2>
+        <p>Preencha o formulário abaixo para fazer sua pré-inscrição na escola de vôlei. Todos os dados usados aqui são fictícios.</p>
+
+        <form action="#" method="post">
+          <fieldset>
+            <legend>Dados pessoais</legend>
+
+            <p>
+              <label for="nome">Nome completo:</label>
+              <input type="text" id="nome" name="nome" autocomplete="name" required>
+            </p>
+
+            <p>
+              <label for="email">E-mail:</label>
+              <input type="email" id="email" name="email" autocomplete="email" required>
+            </p>
+
+            <p>
+              <label for="telefone">Telefone:</label>
+              <input type="tel" id="telefone" name="telefone" autocomplete="tel" pattern="\(\d{2}\) \d{4,5}-\d{4}" title="Use o formato (47) 99999-9999">
+            </p>
+
+            <p>
+              <label for="nascimento">Data de nascimento:</label>
+              <input type="date" id="nascimento" name="nascimento" autocomplete="bday" required>
+            </p>
+          </fieldset>
+
+          <fieldset>
+            <legend>Perfil esportivo</legend>
+
+            <p>
+              <label for="posicao">Posição preferida:</label>
+              <select id="posicao" name="posicao" required>
+                <option value="">Selecione uma posição</option>
+                <option value="levantador">Levantador</option>
+                <option value="central">Central</option>
+                <option value="ponteiro">Ponteiro</option>
+                <option value="oposto">Oposto</option>
+                <option value="libero">Líbero</option>
+                <option value="indefinida">Ainda não sei</option>
+              </select>
+            </p>
+
+            <fieldset>
+              <legend>Nível de experiência</legend>
+
+              <p>
+                <input type="radio" id="iniciante" name="nivel" value="iniciante" required>
+                <label for="iniciante">Iniciante (nunca treinei)</label>
+              </p>
+
+              <p>
+                <input type="radio" id="intermediario" name="nivel" value="intermediario" required>
+                <label for="intermediario">Intermediário (já jogo e quero aprimorar a técnica)</label>
+              </p>
+
+              <p>
+                <input type="radio" id="avancado" name="nivel" value="avancado" required>
+                <label for="avancado">Avançado (já participei de campeonatos)</label>
+              </p>
+            </fieldset>
+
+            <p>
+              <label for="meses">Meses de prática no vôlei:</label>
+              <input type="number" id="meses" name="meses" min="0" max="120" step="1" value="0">
+            </p>
+
+            <p>
+              <label for="altura">Altura (em metros):</label>
+              <input type="number" id="altura" name="altura" min="1.20" max="2.30" step="0.01">
+            </p>
+          </fieldset>
+
+          <fieldset>
+            <legend>Treinos e termos</legend>
+
+            <fieldset>
+              <legend>Dias de treino disponíveis</legend>
+
+              <p>
+                <input type="checkbox" id="dia-segunda" name="dias" value="segunda">
+                <label for="dia-segunda">Segunda-feira</label>
+              </p>
+
+              <p>
+                <input type="checkbox" id="dia-quarta" name="dias" value="quarta">
+                <label for="dia-quarta">Quarta-feira</label>
+              </p>
+
+              <p>
+                <input type="checkbox" id="dia-sabado" name="dias" value="sabado">
+                <label for="dia-sabado">Sábado</label>
+              </p>
+            </fieldset>
+
+            <p>
+              <label for="observacoes">Observações médicas ou histórico esportivo:</label>
+              <textarea id="observacoes" name="observacoes" rows="4" maxlength="300"></textarea>
+            </p>
+
+            <p>
+              <input type="checkbox" id="termos" name="termos" value="aceito" required>
+              <label for="termos">Declaro que li e concordo com os termos e condições.</label>
+            </p>
+          </fieldset>
+
+          <p>
+            <button type="submit">Enviar inscrição</button>
+            <button type="reset">Limpar formulário</button>
+          </p>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>Breno Ricardo Salles Lopes — Turma EMDS25 M3 — 2026. Todos os direitos reservados ao criador deste site.</p>
+    </footer>
+  </body>
+</html>

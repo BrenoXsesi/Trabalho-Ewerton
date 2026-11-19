@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Endereço, telefone, e-mail, horários de atendimento e formulário de mensagem da escolinha de vôlei.">
+    <title>Contato — Mundo do voleibol</title>
+  </head>
+  <body>
+    <a href="#conteudo">Pular para o conteúdo</a>
+
+    <header>
+      <h1>Mundo do voleibol</h1>
+    </header>
+
+    <nav aria-label="Navegação principal">
+      <ul>
+        <li><a href="index.html">Início</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="dados.html">Dados</a></li>
+        <li><a href="cadastro.html">Cadastro</a></li>
+        <li><a href="contato.html" aria-current="page">Contato</a></li>
+      </ul>
+    </nav>
+
+    <main id="conteudo">
+      <section>
+        <h2>Fale conosco</h2>
+        <p>Se você tem dúvidas, sugestões ou precisa de mais informações, entre em contato. Os dados abaixo são fictícios.</p>
+
+        <h3>Nossa sede</h3>
+        <address>
+          <p>Ginásio Mundo do voleibol</p>
+          <p>Rua das Palmeiras, nº 100 — Bairro Centro</p>
+          <p>Joinville - SC, CEP 89200-000</p>
+          <p>Telefone: <a href="tel:+5547999990000">(47) 99999-0000</a></p>
+          <p>E-mail: <a href="mailto:contato@mundodovoleibol.example">contato@mundodovoleibol.example</a></p>
+        </address>
+
+       
+      </section>
+
+      <section>
+        <h3>Horários de atendimento e treinos</h3>
+        <dl>
+          <dt>Segunda a sexta</dt>
+          <dd>06:00 às 22:00</dd>
+
+          <dt>Sábados</dt>
+          <dd>08:00 às 15:00</dd>
+
+          <dt>Domingos e feriados</dt>
+          <dd>Fechado</dd>
+        </dl>
+      </section>
+
+      <section>
+        <h3>Envie uma mensagem</h3>
+        <form action="#" method="post">
+          <fieldset>
+            <legend>Mensagem rápida para nossos atendentes</legend>
+
+            <p>
+              <label for="nome-contato">Seu nome:</label>
+              <input type="text" id="nome-contato" name="nome-contato" autocomplete="name" required>
+            </p>
+
+            <p>
+              <label for="email-contato">Seu e-mail:</label>
+              <input type="email" id="email-contato" name="email-contato" autocomplete="email" required>
+            </p>
+
+            <p>
+              <label for="assunto">Assunto:</label>
+              <select id="assunto" name="assunto" required>
+                <option value="">Selecione um assunto</option>
+                <option value="duvida">Dúvida</option>
+                <option value="sugestao">Sugestão</option>
+                <option value="matricula">Matrícula e valores</option>
+                <option value="outro">Outro assunto</option>
+              </select>
+            </p>
+
+            <p>
+              <label for="mensagem">Sua mensagem:</label>
+              <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+            </p>
+
+            <p>
+              <button type="submit">Enviar mensagem</button>
+            </p>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>Breno Ricardo Salles Lopes — Turma EMDS25 M3 — 2026. Todos os direitos reservados ao criador deste site.</p>
+    </footer>
+  </body>
+</html>
