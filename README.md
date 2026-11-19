@@ -34,14 +34,17 @@ Site de cinco páginas sobre vôlei, feito apenas com HTML (sem CSS). Apresenta 
 - Todos os campos de formulário com `<label>` associado, `fieldset` e `legend`.
 - Hierarquia de títulos sem saltos de nível.
 
-### Teste de teclado (Tab)
-
-
 
 
 ## Fontes consultadas
+Site da CBV: (https://cbv.com.br/)
+Site da Netshoes: (https://www.netshoes.com.br/especiais/volei/praticas-de-volei-vol/regras-volei-vol-prat/como-jogar-volei-guia-completo-para-aprender-a-praticar-o-esporte?srsltid=AYCX9vLSBsovL43Vsm_LVk8IJLGxAjHc-YKgZ5wHTCgvlWkuqXxp3Vol)
 
-> PREENCHER com as páginas que você realmente consultou para conferir os textos e os dados (ex.: site da CBV, Volleyball World, COI, MDN Web Docs), com nome e endereço.
+Site da historia do volei: (https://www.todamateria.com.br/historia-do-voleibol/)
+
+Dados de titulos: (https://www.netshoes.com.br/especiais/volei/competicoes-internacionais-vol/jogos-olimpicos-volei-praia-vol-com/volei-masculino-nas-olimpiadas?srsltid=AYCX9vIGh19r067BnXGhnHjDlCw7zh7KyrNG556jq7Ea9yKKrbysbbTS)
+
+
 
 ## Decisões de semântica
 
